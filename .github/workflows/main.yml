@@ -18,9 +18,8 @@ jobs:
       with:
         host: 134.209.18.189
         username: root
-        key: |
-            ${{ secrets.PRIVATE }}
-            elvit
+        key: ${{ secrets.PRIVATE }}
+        passphrase: elvit
         port: 22
         script: |
           cd elvit.backend
