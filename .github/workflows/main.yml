@@ -16,7 +16,7 @@ jobs:
     - name: Setup SSH and Deploy
       uses: appleboy/ssh-action@v0.1.2
       with:
-        host: 134.209.18.189
+        host: 134.122.97.43
         username: root
         key: ${{ secrets.PRIVATE }}
         passphrase: elvit
