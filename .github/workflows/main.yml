@@ -13,7 +13,7 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
     - name: Debug Private Key
-      run: echo "${{ secrets.SSH_PRIVATE_KEY }}"
+      run: echo "${{ secrets.PRIVATE }}"
     - name: Setup SSH and Deploy
       uses: appleboy/ssh-action@v0.1.2
       with:
